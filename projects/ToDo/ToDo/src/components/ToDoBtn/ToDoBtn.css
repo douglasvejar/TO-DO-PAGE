@@ -1,0 +1,28 @@
+.add-ToDo{  
+    background-color: #fff;
+    border: 2px solid  #378ab4;
+    border-radius: 50px;
+    box-shadow:  #378ab4 4px 4px 0 0;
+    color:  #378ab4;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;   
+    width: 100px;
+    height: 60px;
+    }
+ .add-ToDo:hover {
+    background-color:#f3d8ff;
+}    
+.add-ToDo:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);   
+}  
+

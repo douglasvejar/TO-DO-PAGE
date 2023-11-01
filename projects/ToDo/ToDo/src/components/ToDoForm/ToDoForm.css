@@ -1,0 +1,83 @@
+.ToDo-form-active{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(100px);
+    flex-direction: column;
+    justify-content:space-evenly;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 0px 3px 8px 4px rgba(0,0,0,0.49);
+    -webkit-box-shadow: 0px 3px 8px 4px rgba(0,0,0,0.49);
+    -moz-box-shadow: 0px 3px 8px 4px rgba(0,0,0,0.49);
+    border-radius: 15px;
+}
+
+.ToDo-form-inactive{
+    display: none;
+
+}
+
+.ToDo-Btn-Add{
+    border-radius: 50px;
+    box-shadow:  #378ab4 4px 4px 0 0;
+    color:  #378ab4;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;   
+    width: 100px;
+    height: 50px;
+    background-color:#fbeee0;
+    border: 1px solid  #378ab4;;
+}
+
+.ToDo-Btn-Cancel{
+    border: 1px solid  #378ab4;;
+    background-color: #fbeee0;
+    border-radius: 50px;
+    box-shadow:  #378ab4 4px 4px 0 0;
+    color:  #378ab4;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    user-select: none;
+    font-weight: 700;
+    -webkit-user-select: none;
+    touch-action: manipulation;   
+    width: 100px;
+    height: 50px;
+}
+
+.ToDo-Btn-Cancel:hover{
+    background-color:#fff ;
+}
+
+.ToDo-Btn-Add:hover{
+    background-color: #fff;
+}
+
+.ToDo-Buttons{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ToDo-title{
+    font-size: 30px;
+    height: 150px;
+    align-self: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.ToDO-Input{
+    align-self: center;
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+}

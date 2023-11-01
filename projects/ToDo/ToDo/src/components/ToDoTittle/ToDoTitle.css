@@ -1,0 +1,16 @@
+.ToDo-Title{
+ margin: 0px;
+ font-family: "Helvetica", sans-serif;
+ font-size: 44px;
+text-align: center;
+ text-decoration: none;
+ font-style: normal;
+ font-variant: small-caps;
+ text-transform: none;
+ color:  #ffffff;
+ text-shadow: 0 1px 0px #dbd832, 1px 0 0px #d6d438, 1px 2px 1px #dbd832, 2px 1px 1px  #d6d438, 2px 3px 2px #dbd832, 3px 2px 2px #d6d438, 3px 4px 2px  #dbd832, 4px 3px 3px #d6d438, 4px 5px 3px #dbd832, 5px 4px 2px #d6d438, 5px 6px 2px #dbd832, 6px 5px 2px  #d6d438, 6px 7px 1px  #dbd832, 7px 6px 1px #d6d438, 7px 8px 0px  #dbd832, 8px 7px 0px  #d6d438;
+}
+
+.ToDo-Title span{
+    font-weight: 900;
+}

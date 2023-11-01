@@ -1,0 +1,25 @@
+.loading-items{
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
+
+.loading-list{
+  height: 27px;
+  list-style: none;
+  padding: 25px;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #8f8f8f, #ffffff);
+  background-size: 200% 200%;
+  animation: changeColor 1s linear infinite;
+  width: 500px;
+}
+
+@keyframes changeColor {
+  0% {
+    background-position: 0% 75%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}

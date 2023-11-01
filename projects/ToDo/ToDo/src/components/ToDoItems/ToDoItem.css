@@ -1,0 +1,48 @@
+.ToDo-Item{
+    height: 20px;
+    list-style: none;
+    padding: 25px;
+    margin: 30px;
+    border-radius: 20px;
+    text-align: center;
+    background-color:#fff;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+@keyframes checkConfirmation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 10;
+    }
+  }
+
+.ToDo-item-check{
+    animation: checkConfirmation 0.5s ease-in-out;
+    background-color: rgb(144, 218, 144);
+}
+
+.ToDo-item-Denied{
+    display: none;
+}
+
+.items-list{
+    position: relative;
+ 
+}
+
+.icon-check{
+    display: absolute;
+    color: green;
+    left: 50px;
+    cursor: pointer;
+}
+
+.icon-x{
+    position: absolute;
+    color: red;
+    left:530px;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+#root{
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+}
+
+body{
+  background: radial-gradient(circle, #d6d438, #cf66ff);
+}
+
+#modal{
+  display: flex;
+  position: absolute;
+  top: 300px;
+  left: 760px;
+
+}
+
+@keyframes miAnimacion {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.ToDo-form-active{
+  animation: miAnimacion 0.3s ease-in-out;
+}
+
