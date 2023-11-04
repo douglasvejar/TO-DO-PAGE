@@ -8,13 +8,11 @@
 }
 
 .ToDo-Input:focus {
-    outline: none
+    outline-color: #378ab4;;
 }
 
 .input-container{
-    width: fit-content;
     position: relative;
-
 }
 
 i{
@@ -30,11 +28,24 @@ i{
 .ToDo-Input[type="text"] {
     padding-left: 47px; 
     width: 300px; 
-  }
+}
   
-  
-  
-  
+@media (max-width: 1100px){
+    .ToDo-Input{
+        height: 30px;
+    }
+
+    .ToDo-Input[type="text"]{
+        width: 200px;
+    }
+}  
+
+@media (max-width: 800px){
+    .ToDo-Input{
+        height: 25px;
+    
+    }
+} 
   
   
   

@@ -8,16 +8,8 @@
     background-color:#fff;
     font-size: 20px;
     color: rgb(0, 0, 0);
+    overflow: auto;
 }
-
-@keyframes checkConfirmation {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 10;
-    }
-  }
 
 .ToDo-item-check{
     animation: checkConfirmation 0.5s ease-in-out;
@@ -30,7 +22,7 @@
 
 .items-list{
     position: relative;
- 
+    
 }
 
 .icon-check{
@@ -43,6 +35,24 @@
 .icon-x{
     position: absolute;
     color: red;
-    left:530px;
+    left:520px;
     cursor: pointer;
 }
+
+@keyframes checkConfirmation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 10;
+    }
+  }
+
+
+
+@media (max-width: 1450px){
+        .icon-x{
+            left: 430px;
+        }
+    }
+    

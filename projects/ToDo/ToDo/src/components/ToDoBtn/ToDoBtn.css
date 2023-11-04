@@ -26,3 +26,17 @@
     transform: translate(2px, 2px);   
 }  
 
+@media (max-width: 1100px){
+    .add-ToDo{
+      width: 80px;
+      height: 60px;
+    }
+  } 
+
+@media (max-width: 800px){
+    .add-ToDo{
+      width: 80px;
+      height: 60px;
+    }
+  } 
+
