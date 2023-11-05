@@ -82,7 +82,7 @@
     border-radius: 5px;
 }
 
-@media (max-width: 1100px){
+@media screen and (max-width: 769px){
     .ToDo-form-active{
       width: 400px;
       height: 300px;

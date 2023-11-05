@@ -24,16 +24,9 @@
   }
 }
 
-@media (max-width: 800px){
+@media screen and (max-width: 769px){
   .loading-list{
     width: 150px;
-    height: 17px;
-  }
-} 
-
-@media (max-width: 1100px){
-  .loading-list{
-    width: 320px;
     height: 17px;
   }
 } 

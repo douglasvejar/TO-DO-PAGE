@@ -9,6 +9,7 @@
     font-size: 20px;
     color: rgb(0, 0, 0);
     overflow: auto;
+   
 }
 
 .ToDo-item-check{
@@ -46,13 +47,16 @@
     to {
       opacity: 10;
     }
-  }
+}
 
+@media screen and (max-width:769px){
+    .ToDo-Item{
+        padding: 0px;
+        font-size: 13px;
+        height: 50px;
+}
 
-
-@media (max-width: 1450px){
-        .icon-x{
-            left: 430px;
-        }
+    .icon-x{
+        left: 318px;
     }
-    
+}

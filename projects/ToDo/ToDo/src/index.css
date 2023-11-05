@@ -26,8 +26,17 @@ body{
   animation: miAnimacion 0.3s ease-in-out;
 }
 
-@media (max-width: 1100px){
+@media (max-width: 769px){
   #modal{
-    left: 600px;
+    left: 1px;
+    z-index: 1;
   }
+
+  .ToDo-form-active {
+    box-shadow: -3px 0px 400px 200px rgba(0,0,0,0.67);
+    -webkit-box-shadow: -3px 0px 400px 200px rgba(0,0,0,0.67);
+    -moz-box-shadow: -3px 0px 400px 200px rgba(0,0,0,0.67);;
+  }
+
+ 
 }
