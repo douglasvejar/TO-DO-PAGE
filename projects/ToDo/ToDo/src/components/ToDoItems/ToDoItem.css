@@ -49,14 +49,21 @@
     }
 }
 
-@media screen and (max-width:769px){
+@media (min-width: 640px){
     .ToDo-Item{
-        padding: 0px;
-        font-size: 13px;
-        height: 50px;
+        padding: 10px;
+    }
+    .icon-x{
+        left: 295px;
+    }
 }
 
+@media (min-width:1024px){
+    .ToDo-Item{
+        padding: 20px;
+    }
+
     .icon-x{
-        left: 318px;
+        left: 425px;
     }
 }

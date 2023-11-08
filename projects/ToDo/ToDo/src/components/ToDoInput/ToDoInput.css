@@ -30,14 +30,29 @@ i{
     width: 300px; 
 }
 
-@media screen and (max-width: 769px){
+@media (min-width: 640px){
     .ToDo-Input{
-        height: 25px;
+        height: 20px;
     }
     .ToDo-Input[type="text"]{
-        width: 260px;
+        width: 200px;
     }
-} 
+}
+
+@media (min-width:768px){
+    .ToDo-Input{
+        height: 28px;
+    }
+}
+
+@media (min-width:1024px){
+    .ToDo-Input{
+        height: 35px;
+    }
+    .ToDo-Input[type="text"]{
+        width: 280px;
+    }
+}
   
   
   

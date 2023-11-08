@@ -82,7 +82,33 @@
     border-radius: 5px;
 }
 
-@media screen and (max-width: 769px){
+@media (min-width: 1024px){
+    .ToDo-form-active{
+      width: 500px;
+      height: 400px;
+    }
+
+    .ToDo-title{
+        font-size: 20px;
+    }
+
+    .ToDO-Input{
+        width: 70%;
+        height: 30px;
+    }
+
+    .ToDo-Btn-Add{
+        width: 75px;
+        font-size: 13px;
+    }
+
+    .ToDo-Btn-Cancel{
+        width: 87px;
+        font-size: 13px;
+    } 
+} 
+
+@media (min-width: 640px){
     .ToDo-form-active{
       width: 400px;
       height: 300px;
@@ -105,5 +131,8 @@
     .ToDo-Btn-Cancel{
         width: 87px;
         font-size: 13px;
-    }
-  } 
+    } 
+} 
+
+
+

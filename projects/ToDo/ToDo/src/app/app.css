@@ -12,11 +12,35 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    overflow: auto;
+    flex-flow: wrap;
+
 }
 
-@media screen and (max-width: 768px){
+@media (min-width: 640px){
     .App-content{
-        height: 700px;
+        height: 500px;
+        width: 380px;
+    }
+}
+
+
+@media (min-width: 768px){
+    .App-content{
+        height: 550px;
         width: 370px;
     }
 }
+
+
+@media (min-width:1024px){
+    .App-content{
+        height: 700px;
+        width: 510px;
+        box-shadow: -4px 2px 16px 4px rgba(0,0,0,0.88);
+    -webkit-box-shadow: -4px 2px 16px 4px rgba(0,0,0,0.88);
+    -moz-box-shadow: -4px 2px 16px 4px rgba(0,0,0,0.88);
+    }
+}
+
+

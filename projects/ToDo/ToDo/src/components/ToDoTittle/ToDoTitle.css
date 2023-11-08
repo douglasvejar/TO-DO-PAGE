@@ -15,8 +15,16 @@
     font-weight: 900;
 }
 
-@media screen and (max-width: 769px){
+@media (min-width:640px){
     .ToDo-Title{
-        font-size: 25px;
+        font-size: 20px;
+    }
+}
+
+
+
+@media (min-width:1024px){
+    .ToDo-Title{
+        font-size: 40px;
     }
 }
