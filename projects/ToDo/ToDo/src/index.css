@@ -22,9 +22,6 @@ body{
   }
 }
 
-.ToDo-form-active{
-  animation: miAnimacion 0.3s ease-in-out;
-}
 
 @media (min-width: 640px){
   #modal{
@@ -32,11 +29,6 @@ body{
     z-index: 1;
   }
 
-  .ToDo-form-active {
-    box-shadow: -3px 0px 400px 200px rgba(0,0,0,0.67);
-    -webkit-box-shadow: -3px 0px 400px 200px rgba(0,0,0,0.67);
-    -moz-box-shadow: -3px 0px 400px 200px rgba(0,0,0,0.67);;
-  }
 }
 
 @media (min-width: 1024px){
@@ -46,10 +38,7 @@ body{
     top: 200px;
     left: 760px;
   }
-
-  .ToDo-form-active{
-    box-shadow: none;
   }
  
-}
+
 
