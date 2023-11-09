@@ -22,6 +22,12 @@ body{
   }
 }
 
+@media (min-width: 500px){
+  #modal{
+    left: 1px;
+    z-index: 1;
+  }
+}
 
 @media (min-width: 640px){
   #modal{

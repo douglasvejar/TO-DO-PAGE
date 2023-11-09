@@ -29,12 +29,22 @@ i{
     width: 300px; 
 }
 
+@media (min-width: 500px){
+    .ToDo-Input{
+        height: 30px;
+    }
+
+    .ToDo-Input[type="text"]{
+        width: 220px;
+    }
+}
+
 @media (min-width: 640px){
     .ToDo-Input{
         height: 20px;
     }
     .ToDo-Input[type="text"]{
-        width: 200px;
+        width: 220px;
     }
 }
 

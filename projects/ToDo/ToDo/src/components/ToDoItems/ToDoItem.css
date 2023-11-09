@@ -50,8 +50,13 @@
     }
 }
 
+@media (min-width: 500px){
+    .icon-x{
+        left: 340px;
+    }
+}
+
 @media (min-width: 640px){
-    
     .icon-x{
         left: 295px;
     }

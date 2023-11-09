@@ -83,6 +83,35 @@
     outline-color: rgb(255, 153, 0);
 }
 
+@media (min-width: 500px){
+    .ToDo-form-active{
+      width: 400px;
+      height: 300px;
+      box-shadow: -3px 0px 400px 200px rgba(0,0,0,0.67);
+      -webkit-box-shadow: -3px 0px 400px 200px rgba(0,0,0,0.67);
+      -moz-box-shadow: -3px 0px 400px 200px rgba(0,0,0,0.67);;
+    }
+
+    .ToDo-title{
+        font-size: 30px;
+    }
+
+    .ToDO-Input{
+        width: 70%;
+        height: 30px;
+    }
+
+    .ToDo-Btn-Add{
+        width: 75px;
+        font-size: 13px;
+    }
+
+    .ToDo-Btn-Cancel{
+        width: 87px;
+        font-size: 13px;
+    } 
+} 
+
 @media (min-width: 640px){
     .ToDo-form-active{
       width: 500px;

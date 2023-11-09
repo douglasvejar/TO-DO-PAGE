@@ -15,9 +15,15 @@
     font-weight: 900;
 }
 
+@media (min-width: 500px){
+    .ToDo-Title{
+       font-size: 30px;
+    }
+}
+
 @media (min-width:640px){
     .ToDo-Title{
-        font-size: 20px;
+        font-size: 30px;
     }
 }
 
