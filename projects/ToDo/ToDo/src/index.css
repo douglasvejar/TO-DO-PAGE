@@ -22,9 +22,9 @@ body{
   }
 }
 
-@media (min-width: 500px){
+@media (min-width: 300px){
   #modal{
-    left: 1px;
+    left: 15px;
     z-index: 1;
   }
 }
