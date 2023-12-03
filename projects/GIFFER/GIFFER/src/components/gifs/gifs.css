@@ -1,0 +1,21 @@
+.link-title{
+ color: rgb(4, 0, 255);
+ text-decoration: none;
+ font-size: large;
+}
+
+.link-title:hover{
+    color: #585858;
+}
+
+.title-url{
+    margin-bottom: 2px;
+}
+
+.image-gif{
+    box-shadow: 0px 8px 13px -11px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 0px 8px 13px -11px rgba(0,0,0,0.75);
+   -moz-box-shadow: 0px 8px 13px -11px rgba(0,0,0,0.75);
+   
+}
+

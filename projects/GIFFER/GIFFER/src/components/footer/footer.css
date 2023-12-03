@@ -1,0 +1,26 @@
+.footer {
+    background-color:tomato;
+    color: #fff; 
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 65px;
+    
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Estilos para el logo de GitHub */
+  .github-logo img {
+    width: 30px; /* Ajusta el tamaño del logo según sea necesario */
+    height: 30px;
+    border-radius: 50%; /* Para hacer el logo circular */
+    transition: transform 0.3s ease;
+  }
+  
+  .github-logo img:hover {
+    transform: scale(1.1); /* Efecto de escala al pasar el ratón sobre el logo */
+  }

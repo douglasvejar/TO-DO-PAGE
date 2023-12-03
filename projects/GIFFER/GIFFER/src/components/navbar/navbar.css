@@ -1,0 +1,104 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 95px;
+  height:230px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column; 
+}
+
+/* Estilos adicionales para la barra de navegación y ajustes */
+.navbar-content {
+  box-shadow: 0px 8px 13px -15px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 8px 13px -15px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 8px 13px -15px rgba(0,0,0,0.75);
+  background-color: #fffffff1;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 75px;
+}
+
+ul.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 15px;
+}
+
+.item-dropdown{
+  background-color: #fffffff1;
+  text-decoration: none;
+  color: #585858;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.205);
+  padding: 5px;
+}
+
+.item-dropdown:hover {
+  color: #ffd700;
+  background-color: #fffffff1;
+  cursor: pointer;
+}
+
+.item-navbar{
+  color: #585858;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.item-navbar:hover {
+  color: #ffd700;
+}
+
+/* Estilos para el campo de búsqueda */
+.search-container {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  padding-right: 35px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.253);
+  border-radius: 6px;
+  margin-right: 10px;
+  background-color: #fffffff1;
+}
+
+input:focus{
+  outline-color: rebeccapurple;
+
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #ffd700;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffcc00;
+}
