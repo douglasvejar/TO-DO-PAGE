@@ -1,0 +1,54 @@
+.translate-content{
+    display: flex;
+}
+
+.form-translate{
+    background-color: #ffffff00;
+    backdrop-filter: blur(30px);;
+    border-radius: 2%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.form-translated{
+  background-color: #ffffff00;
+  backdrop-filter: blur(30px);;
+  border-radius: 2%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+.text-translate{
+    resize: none;
+    font-size: 20px;
+    border: none;
+    border-radius: 2%;
+}
+
+.fieldset-translate-btn{
+    border: none;
+}
+
+.fieldset-lenguage{
+    border: none;   
+}
+
+.text-translate:focus{
+    outline: none;
+}
+.translated-text:focus{
+  outline: none;
+}
+.translated-text{
+    margin-top: 39px;
+    resize: none;
+    font-size: 20px;
+    border: none;
+    border-radius: 2%;
+}
+
+.translated-fieldset{
+    border: none;
+}
+
